@@ -8,10 +8,18 @@ body{
 .input-group{
     width: 55%;
 }
-.btn{
+.bi-search{
+    color: #000000;
+}
+.btn-outline-secondary{
+    color: white;
+    background-color: #C4C4C4;
+}
+.btn-primary{
     background-color: #31363F;
     border: 2px solid #C4C4C4;
     font-size: large;
+    border-radius: 50px;
 }
 .btn a{
     text-decoration: none;

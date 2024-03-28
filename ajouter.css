@@ -55,3 +55,19 @@ nav{
 .form-control-file{
     color: white;
 }
+.form-group{
+    display: flex;
+    gap: 1em;
+    width: 45%;
+}
+.bi-envelope{
+    color: white;
+}
+.form-outline{
+    display: flex;
+    gap: 1em;
+    width: 45%;
+}
+.bi-telephone-fill{
+    color: white;
+}
