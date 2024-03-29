@@ -1,0 +1,270 @@
+{
+    "results": [
+      {
+        "gender": "male",
+        "name": "Jacob Mackay",
+        "location": {
+          "street": {
+            "number": 4762,
+            "name": "Tecumseh Rd"
+          },
+          "city": "Keswick",
+          "state": "Alberta",
+          "country": "Canada",
+          "postcode": "E4D 7Y8",
+          "coordinates": {
+            "latitude": "-71.2148",
+            "longitude": "-124.1208"
+          },
+          "timezone": {
+            "offset": "+11:00",
+            "description": "Magadan, Solomon Islands, New Caledonia"
+          }
+        },
+        "email": "jacob.mackay@example.com",
+        "login": {
+          "uuid": "79f7e705-7aee-45ba-aee9-6044123a2de5",
+          "username": "tinymeercat491",
+          "password": "tuan",
+          "salt": "BP36vSPP",
+          "md5": "83a1b098c76f1ef22f79fc4461920c8b",
+          "sha1": "af9667be0a0215d28e52a7bd05c178fa58d3226f",
+          "sha256": "48ffedd5c9c8fee5a0b25d56c2d2d32054f2ac40312b6bf013a970b040de75c7"
+        },
+        "dob": {
+          "date": "1945-10-13T16:10:19.271Z",
+          "age": 78
+        },
+        "registered": {
+          "date": "2007-09-03T03:06:14.246Z",
+          "age": 16
+        },
+        "phone": "0612141566",
+        "cell": "T22 X46-4817",
+        "id": {
+          "name": "SIN",
+          "value": "809370281"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/26.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/26.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/26.jpg"
+        },
+        "nat": "CA"
+      },
+      {
+        "gender": "male",
+        "name": "Julio Pérez",
+        "location": {
+          "street": {
+            "number": 971,
+            "name": "Calle de Alcalá"
+          },
+          "city": "Granada",
+          "state": "Islas Baleares",
+          "country": "Spain",
+          "postcode": 60362,
+          "coordinates": {
+            "latitude": "-74.0748",
+            "longitude": "-37.3574"
+          },
+          "timezone": {
+            "offset": "-8:00",
+            "description": "Pacific Time (US & Canada)"
+          }
+        },
+        "email": "julio.perez@example.com",
+        "login": {
+          "uuid": "c44e797e-2c06-4398-996d-50b2590a4262",
+          "username": "redtiger756",
+          "password": "alissa",
+          "salt": "opd8sHwX",
+          "md5": "c1945646d3ab3ecc0b151c7d235e15c2",
+          "sha1": "38c9ab2908952354bff8fedadd9abf1b3060fbe7",
+          "sha256": "89875efd8886233c009662a0d8c38e930e827486f6777c964c3cce591064358b"
+        },
+        "dob": {
+          "date": "2001-03-02T03:02:01.292Z",
+          "age": 23
+        },
+        "registered": {
+          "date": "2021-12-24T01:34:38.867Z",
+          "age": 2
+        },
+        "phone": "0617228976",
+        "cell": "687-837-397",
+        "id": {
+          "name": "DNI",
+          "value": "19905278-P"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/93.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/93.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/93.jpg"
+        },
+        "nat": "ES"
+      },
+      {
+        "gender": "female",
+        "name": "Vivdya Soldatenko",
+        "location": {
+          "street": {
+            "number": 613,
+            "name": "Zarichna"
+          },
+          "city": "Stariy Krim",
+          "state": "Lvivska",
+          "country": "Ukraine",
+          "postcode": 99038,
+          "coordinates": {
+            "latitude": "65.2497",
+            "longitude": "-162.3691"
+          },
+          "timezone": {
+            "offset": "0:00",
+            "description": "Western Europe Time, London, Lisbon, Casablanca"
+          }
+        },
+        "email": "vivdya.soldatenko@example.com",
+        "login": {
+          "uuid": "bcafc389-074f-48f5-9da1-a093eaa46d55",
+          "username": "yellowtiger852",
+          "password": "heritage",
+          "salt": "pkRuGSRe",
+          "md5": "c556b23344923bd5cef0e7ce3e63bc6f",
+          "sha1": "8565edd7b59545ed384cbcbc961cdfb35e000464",
+          "sha256": "e2a4b730e494e6c340f959cc39979533091d34fe734fb0fe256cc29b536b1638"
+        },
+        "dob": {
+          "date": "1984-05-02T05:03:23.870Z",
+          "age": 39
+        },
+        "registered": {
+          "date": "2014-03-17T09:16:40.604Z",
+          "age": 10
+        },
+        "phone": "0671359075",
+        "cell": "(068) H47-7637",
+        "id": {
+          "name": "",
+          "value": null
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/women/51.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/51.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/51.jpg"
+        },
+        "nat": "UA"
+      },
+      {
+        "gender": "female",
+        "name": "Mariana Gamez",
+        "location": {
+          "street": {
+            "number": 8823,
+            "name": "Corredor Carreón"
+          },
+          "city": "Tecamachalco",
+          "state": "Quintana Roo",
+          "country": "Mexico",
+          "postcode": 89130,
+          "coordinates": {
+            "latitude": "57.9381",
+            "longitude": "41.4506"
+          },
+          "timezone": {
+            "offset": "+9:00",
+            "description": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk"
+          }
+        },
+        "email": "mariana.gamez@example.com",
+        "login": {
+          "uuid": "70671453-7110-431b-bae9-7382d42570f0",
+          "username": "sadzebra748",
+          "password": "gofish",
+          "salt": "LWdTYWjh",
+          "md5": "6ef1160a0eecaae9a3a11fe2bbec7915",
+          "sha1": "795af35b7d7a607a26adf7d9a2021c56dad5f041",
+          "sha256": "25e4c142f0cc1bbd7208ed11766ee28c78e4eb3678d469f4d298c2ca1952b91c"
+        },
+        "dob": {
+          "date": "1957-09-12T20:35:18.433Z",
+          "age": 66
+        },
+        "registered": {
+          "date": "2012-11-22T22:15:10.647Z",
+          "age": 11
+        },
+        "phone": "0654290876",
+        "cell": "(684) 996 6740",
+        "id": {
+          "name": "NSS",
+          "value": "46 81 19 7773 8"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/women/68.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/68.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/68.jpg"
+        },
+        "nat": "MX"
+      },
+      {
+        "gender": "female",
+        "name": "Ms Alex Carroll",
+        "location": {
+          "street": {
+            "number": 6514,
+            "name": "North Road"
+          },
+          "city": "Nottingham",
+          "state": "West Sussex",
+          "country": "United Kingdom",
+          "postcode": "J93 5HS",
+          "coordinates": {
+            "latitude": "29.0160",
+            "longitude": "16.0542"
+          },
+          "timezone": {
+            "offset": "-6:00",
+            "description": "Central Time (US & Canada), Mexico City"
+          }
+        },
+        "email": "alex.carroll@example.com",
+        "login": {
+          "uuid": "b073b800-8a1b-41ad-8919-a606578947d0",
+          "username": "blackleopard836",
+          "password": "bobdole",
+          "salt": "mtJAlXEF",
+          "md5": "5b0d6fc1740818f71cc1cd4bf852bef6",
+          "sha1": "1a5a8c5eefba6514b46cf77ffac130e63e7670c5",
+          "sha256": "fcc82322ea18c12fec741c74fb0694a5f3f7a42e0293dcb0f547a19399a84463"
+        },
+        "dob": {
+          "date": "1977-09-27T06:25:48.014Z",
+          "age": 46
+        },
+        "registered": {
+          "date": "2020-09-14T21:41:51.431Z",
+          "age": 3
+        },
+        "phone": "06768729259",
+        "cell": "07405 102835",
+        "id": {
+          "name": "NINO",
+          "value": "YK 54 19 55 N"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/women/22.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/22.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/22.jpg"
+        },
+        "nat": "GB"
+      }
+    ],
+    "info": {
+      "seed": "62cdef88a77b9fe7",
+      "results": 5,
+      "page": 1,
+      "version": "1.4"
+    }
+  }
