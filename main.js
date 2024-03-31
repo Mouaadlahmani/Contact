@@ -1,31 +1,32 @@
-// fetch('resultat.json').then((result) => {
-//     let myData = result.json();
-//     return myData;
-// }).then((myData) => {
-//     myData.length = 5;
-//     return myData;
-// }).then((myData) => {
-//     console.log(myData);
-//     console.log(myData.results[2].name);
-//     console.log(myData.results[2].phone);
-//     console.log(myData.results[2].email);
-// });
+// ----------search-bar---------
+function search() {
+    let filter = document.getElementById('search').value.toUpperCase();
+    let cards = document.querySelectorAll('.card');
+  
+    cards.forEach(card => {
+      let title = card.querySelector('h5').textContent.toUpperCase();
+      let phone = card.querySelector('p').textContent.toLocaleLowerCase();
+      if (title.includes(filter) || phone.includes(filter)) {
+        card.style.display = "";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  }
 
-async function get() {
-    // fetich kyjib les contact mn api
+// --------get infos from api ----------
+async function info() {
+    // get contact from api
     const response = await fetch("resultat.json");
-//    chnager les ifo from api to json file
     const data = await response.json();
-     console.log(data);
-//les cartes
-    const listcart=document.querySelector(".cards");
-    // results= array f api
-data.results.forEach(user => {
-// creat div with classe="col-md-4" in list cart
-    const cart=document.createElement("div");
-    cart.classList.add("card");
-//    pour boucler les cart aymchi lcart ou ghyht fiha dkchi li jb mn api
-    cart.innerHTML=`
+   //creat cardlist
+    const cardlist=document.querySelector(".cards");
+   data.results.forEach(user => {
+   //creat div with classe="card" in list cart
+    const card=document.createElement("div");
+    card.classList.add("card");
+   //insert this code inside the card div
+    card.innerHTML=`
     <img src="${user.picture.large}" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">${user.name}</h5>
@@ -33,8 +34,24 @@ data.results.forEach(user => {
       <p class="card-text">${user.email}</p>
     </div>`
 
-    listcart.appendChild(cart);
-});
-
+    cardlist.appendChild(card);
+  });
 }
-get()
+info();
+
+// -----------add new-contact-------
+
+function add(){
+  var image = document.getElementById('exampleFormControlFile1').value;
+  var fname = document.getElementById('first_name').value;
+  var lname = document.getElementById('last_name').value;
+  var phone = document.getElementById('phone').value;
+  var email = document.getElementById('inputEmail4').value;
+
+  localStorage.setItem('image', image)
+  localStorage.setItem('first_name', fname);
+  localStorage.setItem('last_name', lname);
+  localStorage.setItem('phone', phone);
+  localStorage.setItem('email', email);
+
+};
